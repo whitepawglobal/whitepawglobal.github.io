@@ -1,43 +1,42 @@
 {
-  "name": "TailBliss",
-  "version": "0.1.1",
-  "description": "Hugo + Alpine.js + TailwindCSS",
-  "main": "index.js",
+  "name": "loveit-src",
+  "version": "0.2.0",
+  "description": "LoveIt theme source file",
+  "private": true,
   "devDependencies": {
-    "@tailwindcss/typography": "^0.5.9",
-    "autoprefixer": "^10.4.14",
-    "concurrently": "^7.6.0",
-    "postcss": "^8.4.21",
-    "postcss-cli": "^10.1.0",
-    "tailwindcss": "^3.2.7"
-  },  
+    "@algolia/cli": "^4.0.8",
+    "@babel/cli": "^7.17.10",
+    "@babel/core": "^7.17.10",
+    "@babel/preset-env": "^7.17.10",
+    "babelify": "^10.0.0",
+    "browserify": "^16.5.2",
+    "core-js": "^3.22.4",
+    "husky": "^7.0.0",
+    "segmentit": "^2.0.3"
+  },
   "scripts": {
-    "start": "concurrently npm:watch:*",
-    "watch:tw": "tailwindcss -i ./assets/css/main.css -o ./assets/css/style.css --watch",
-    "watch:hugo": "hugo server",
-    "build": "hugo --minify",
-    "test": "hugo"
+    "preinstall": "npx npm-force-resolutions",
+    "babel": "npx babel src/js --out-file assets/js/theme.js",
+    "build": "npm run babel && hugo -v --source=exampleSite --themesDir ../.. --gc",
+    "build-lunr-segmentit": "browserify src/lib/lunr/lunr.segmentit.js -o assets/lib/lunr/lunr.segmentit.js -t babelify --presets @babel/preset-env",
+    "start": "npm run babel && hugo server --source=exampleSite --themesDir ../.. -D --disableFastRender",
+    "start-production": "npm run babel && hugo server --source=exampleSite --themesDir ../.. -D --disableFastRender -e production",
+    "check": "htmlproofer exampleSite/public --check-html --allow-hash-href --empty-alt-ignore --disable-external",
+    "copy": "rm -rf resources && cp -rf exampleSite/resources resources",
+    "prepare": "husky install"
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/nusserstudios/tailbliss.git"
+    "url": "git+https://github.com/dillonzq/LoveIt.git"
   },
   "keywords": [
     "hugo",
-    "tailwind",
-    "tailwindcss",
-    "minimal",
-    "responsive",
-    "light mode",
-    "dark mode",
-    "hugo blog",
-    "categories",
-    "tags"
+    "theme"
   ],
-  "author": "NusserStudios",
-  "license": "Apache-2.0",
+  "author": "Dillon",
+  "license": "MIT",
   "bugs": {
-    "url": "https://github.com/nusserstudios/tailbliss/issues"
+    "url": "https://github.com/dillonzq/LoveIt/issues"
   },
-  "homepage": "https://github.com/nusserstudios/tailbliss"
+  "homepage": "https://github.com/dillonzq/LoveIt#readme"
 }
