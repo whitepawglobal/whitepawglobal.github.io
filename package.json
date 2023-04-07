@@ -23,10 +23,6 @@
     "type": "git",
     "url": "git+https://github.com/nusserstudios/tailbliss.git"
   },
-  "repository": {
-    "type": "git",
-    "url": "git+https://github.com/indaco/gohugo-tailwindcss-alpinejs-starter.git"
-  },
   "keywords": [
     "hugo",
     "tailwind",
