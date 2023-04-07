@@ -7,7 +7,7 @@ description = "TailBliss is an Hugo Starter with Tailwind CSS 3.2 and Alpine.js 
 homepage = "https://github.com/nusserstudios/tailbliss"
 
 # If you have a running demo of the theme.
-demosite = "https://tailbliss.netlify.app/"
+demosite = "https://whitepawglobal.github.io/"
 
 tags = ["blog", "tailwind", "tailwindcss", "dark", "light", "responsive", "minimal", "portfolio", "company", "gallery", "personal" ]
 features = ["blog", "categories", "webp", "tailwind3", "alpinejs"]
