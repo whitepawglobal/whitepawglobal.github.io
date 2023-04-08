@@ -12,11 +12,11 @@ Blockquotes Blockquotes can also be nested&amp;hellip;</description></item><item
 Your Email:
 Subject:
 Your message:
-Send Message</description></item><item><title>News Post 3</title><link>https://whitepawglobal.github.io/posts/news-post-3/</link><pubDate>Sat, 18 Dec 2021 11:10:36 +0800</pubDate><guid>https://whitepawglobal.github.io/posts/news-post-3/</guid><description>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed cursus, odio nec venenatis lacinia, lacus lectus varius nisi, in tristique mi purus ut libero.</description></item><item><title>Prose</title><link>https://whitepawglobal.github.io/prose/</link><pubDate>Sat, 18 Dec 2021 11:10:36 +0800</pubDate><guid>https://whitepawglobal.github.io/prose/</guid><description>@tailwindcss/typography View on GitHub!
+Send Message</description></item><item><title>News Post 3</title><link>https://whitepawglobal.github.io/posts/news-post-3/</link><pubDate>Sat, 18 Dec 2021 11:10:36 +0800</pubDate><guid>https://whitepawglobal.github.io/posts/news-post-3/</guid><description>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed cursus, odio nec venenatis lacinia, lacus lectus varius nisi, in tristique mi purus ut libero.</description></item><item><title>Product</title><link>https://whitepawglobal.github.io/product/</link><pubDate>Sat, 18 Dec 2021 11:10:36 +0800</pubDate><guid>https://whitepawglobal.github.io/product/</guid><description>@tailwindcss/typography View on GitHub!
 Beautiful typographic defaults for HTML you don&amp;rsquo;t control.
-The official Tailwind CSS Typography plugin provides a set of prose classes you can use to add beautiful typographic defaults to any vanilla HTML you don’t control, like HTML rendered from Markdown, or pulled from a CMS.
+The official Tailwind CSS Typography plugin provides a set of product classes you can use to add beautiful typographic defaults to any vanilla HTML you don’t control, like HTML rendered from Markdown, or pulled from a CMS.
 Tailwind CSS IntelliSense extension for Visual Studio Code
-&amp;lt;article class=&amp;quot;prose lg:prose-xl&amp;quot;&amp;gt;
+&amp;lt;article class=&amp;quot;product lg:product-xl&amp;quot;&amp;gt;
 {{ markdown }}
 &amp;lt;/article&amp;gt;
 To see what it looks like in action, check out our live demo on Tailwind Play.</description></item></channel></rss>
