@@ -1,5 +1,5 @@
 baseURL = "https://whitepawglobal.github.io/"
-title = "TailBliss"
+title = "White Paw Global"
 
 languageCode = "en-us"
 DefaultContentLanguage = "en"
@@ -13,9 +13,9 @@ darkmode_js = ["assets/js/darkmode.js"]
 enableInlineShortcodes = true
 
 [params]
-author = "Nusser Studios"
+author = "White Paw Global"
 authorimage = "../assets/images/global/author.webp"
-github = "https://github.com/nusserstudios"
+github = "https://github.com/whitepawglobal"
 facebook = "https://facebook.com/nusserstudios"
 og_image = "/images/tailbliss-cover.png"
 sitename = "TailBliss"
